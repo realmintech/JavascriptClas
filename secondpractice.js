@@ -18,184 +18,184 @@
 // let vic = "josh" 
 // console.log(vic)
 
-const sun = ["To", "Is", "Of"];
+// const sun = ["To", "Is", "Of"];
 
-sun[3] = "Or"
+// sun[3] = "Or"
 
-sun.unshift("Too")
+// sun.unshift("Too")
 
-document.getElementById("dem").innerHTML = sun;
+// document.getElementById("dem").innerHTML = sun;
 
-const hop = {firstName:"Josh", lastName:"vic", surName:"Ajao" }
+// const hop = {firstName:"Josh", lastName:"vic", surName:"Ajao" }
 
-hop.lName = "Sunday"
+// hop.lName = "Sunday"
 
-document.getElementById("loo").innerHTML = "My Last-Name is" + hop.lName;
+// document.getElementById("loo").innerHTML = "My Last-Name is" + hop.lName;
 
-let j = "What are you doing in there"
-j += " ..Buddy"
-console.log(j.length)
+// let j = "What are you doing in there"
+// j += " ..Buddy"
+// console.log(j.length)
 
-let name = "Ma"
-let display = name == "Mariam" ? "Nice to meet you Jos" + name : "Fuck off" + name;
-console.log(display)
+// let name = "Ma"
+// let display = name == "Mariam" ? "Nice to meet you Jos" + name : "Fuck off" + name;
+// console.log(display)
 
-let e = 3;
-e++
-let f=e
-console.log(f)
+// let e = 3;
+// e++
+// let f=e
+// console.log(f)
 
-let q = 7
-let i = 8 
-let z = 7 
-console.log(q == i)
-console.log(z == q )
+// let q = 7
+// let i = 8 
+// let z = 7 
+// console.log(q == i)
+// console.log(z == q )
 
-function forName(){
-    return ('Bisi is a ') + ('girl')
-}
-
-document.getElementById("sam").innerHTML = forName('Nigga')
-console.log(forName('Nigga'))
-
-const luck = {
-    object: "book",
-    class: "tony",
-    art: "pic"
-}
-
-document.getElementById("sam").innerHTML = luck.object + " " + luck.class;
-
-console.log(luck["object"] + " " + luck["class"])
-
-function date(){
-    document.getElementById("coke").innerHTML = Date();
-}
-
-let x = "vic";
-let x1 = new String ("vic");
-
-// document.getElementById("view").innerHTML = typeof x + "<br>" + typeof x1;
-document.getElementById("view").innerHTML = (x===x1) 
-
-//  endsWith()/startsWith() Method
-
-let end = "hate"
-let end1 = end.endsWith("hate")
-
-document.getElementById("end2").innerHTML = end1;
-
-let start = "hello"
-let start1 = start.startsWith("hello")
-
-document.getElementById("start2").innerHTML = start1;
-
-// slice
-
-
-
-// function click(){
-//    document.getElementById("test").value += '1';
+// function forName(){
+//     return ('Bisi is a ') + ('girl')
 // }
 
-let v = "Sunday John"
-// let d = v.slice(0, -1)
-const g = v.substring(1, 9) 
-console.log(g)
+// document.getElementById("sam").innerHTML = forName('Nigga')
+// console.log(forName('Nigga'))
 
-// replace
+// const luck = {
+//     object: "book",
+//     class: "tony",
+//     art: "pic"
+// }
 
-let change = document.getElementById("change").innerHTML
-function unchange(){
-    document.getElementById("change").innerHTML = change.replace("Word", ", I gat you")
-}
+// document.getElementById("sam").innerHTML = luck.object + " " + luck.class;
 
-// concat
+// console.log(luck["object"] + " " + luck["class"])
 
-let txt1 = "Alao";
-let txt2 = "John";
-let txt3 = txt1.concat(' ', txt2);
+// function date(){
+//     document.getElementById("coke").innerHTML = Date();
+// }
 
-document.getElementById('cat').innerHTML = txt3;
+// let x = "vic";
+// let x1 = new String ("vic");
 
-let txt = "Alao" + " " + "Mary"
+// // document.getElementById("view").innerHTML = typeof x + "<br>" + typeof x1;
+// document.getElementById("view").innerHTML = (x===x1) 
 
-document.getElementById("or").innerHTML = txt.lastIndexOf("")
+// //  endsWith()/startsWith() Method
 
-let Num = 23;
-document.getElementById("demo").innerHTML = `to Binary = ` + Num.toString(2)
+// let end = "hate"
+// let end1 = end.endsWith("hate")
 
-let t = "5.45";
-// document.getElementById("de").innerHTML = 
-    console.log(Number(t))
-    // console.log(t.toFixed(5))
+// document.getElementById("end2").innerHTML = end1;
 
-// console.log(t)
+// let start = "hello"
+// let start1 = start.startsWith("hello")
 
-// Array
+// document.getElementById("start2").innerHTML = start1;
 
-var obj = ["book","pen", "stick"]
-// document.getElementById("arr").innerHTML = obj[1];
-document.getElementById("arr").innerHTML = obj.length;
+// // slice
 
 
-// fruit, fLent, text, i;
 
- fruit = ["orange","banana", "grape"] ;
- fLent = fruit.length;
- text = "<ul>";
+// // function click(){
+// //    document.getElementById("test").value += '1';
+// // }
 
- for (i = 0; i < fLent; i++){
-    text += "<li>" + fruit[i]  + "</li>" 
- }
- text += "</ul>"
- console.log(text)
+// let v = "Sunday John"
+// // let d = v.slice(0, -1)
+// const g = v.substring(1, 9) 
+// console.log(g)
 
- document.getElementById("toop").innerHTML = text;
+// // replace
 
- // Adding of new Array 
+// let change = document.getElementById("change").innerHTML
+// function unchange(){
+//     document.getElementById("change").innerHTML = change.replace("Word", ", I gat you")
+// }
 
- const names = ["sunday", "niyi","mariam"]
- document.getElementById("new").innerHTML =  names ;
+// // concat
 
- function chan() {
-    // names.push("joshua","ben");
-    names[names.length] = "joshua" +","+ "ben";
-    document.getElementById("new").innerHTML = names;
- }
+// let txt1 = "Alao";
+// let txt2 = "John";
+// let txt3 = txt1.concat(' ', txt2);
 
- var hash = []
- hash[0] = "look"
- hash[1] = "push"
- hash[2] = "top"
- hash[3] = "luck"
+// document.getElementById('cat').innerHTML = txt3;
 
- console.log(hash[0] + " " + hash.length)
+// let txt = "Alao" + " " + "Mary"
 
- var color = ["red","black","blue","green"]
-//  console.log(color.join(" - "))
-console.log(color.pop())
-console.log(color)
+// document.getElementById("or").innerHTML = txt.lastIndexOf("")
 
-var haa = ["josh", "sunday","tope@gmail.com"]
-document.getElementById("gas").innerHTML = haa ;
+// let Num = 23;
+// document.getElementById("demo").innerHTML = `to Binary = ` + Num.toString(2)
 
-function spli(){
-    haa.splice(2,1, "joshua@gmail")
-    document.getElementById("gas").innerHTML = haa;
-}
-// console.log(h.slice(0,2, 1))
+// let t = "5.45";
+// // document.getElementById("de").innerHTML = 
+//     console.log(Number(t))
+//     // console.log(t.toFixed(5))
 
-// merging with concat
-var boy = ["sola","segun"]
-var girl = ["tope","temi","esther"]
-var get = boy.concat(girl)
-console.log(get.toString())
+// // console.log(t)
 
-var aaa = [13,2,8,0,4,5,24]
-price = aaa.sort((a,b) => a-b )
-console.log(price)
+// // Array
 
-var bbb = [13,2,8,0,4,5,24]
-place = aaa.sort((a,b) => b-a )
-console.log(place)
+// var obj = ["book","pen", "stick"]
+// // document.getElementById("arr").innerHTML = obj[1];
+// document.getElementById("arr").innerHTML = obj.length;
+
+
+// // fruit, fLent, text, i;
+
+//  fruit = ["orange","banana", "grape"] ;
+//  fLent = fruit.length;
+//  text = "<ul>";
+
+//  for (i = 0; i < fLent; i++){
+//     text += "<li>" + fruit[i]  + "</li>" 
+//  }
+//  text += "</ul>"
+//  console.log(text)
+
+//  document.getElementById("toop").innerHTML = text;
+
+//  // Adding of new Array 
+
+//  const names = ["sunday", "niyi","mariam"]
+//  document.getElementById("new").innerHTML =  names ;
+
+//  function chan() {
+//     // names.push("joshua","ben");
+//     names[names.length] = "joshua" +","+ "ben";
+//     document.getElementById("new").innerHTML = names;
+//  }
+
+//  var hash = []
+//  hash[0] = "look"
+//  hash[1] = "push"
+//  hash[2] = "top"
+//  hash[3] = "luck"
+
+//  console.log(hash[0] + " " + hash.length)
+
+//  var color = ["red","black","blue","green"]
+// //  console.log(color.join(" - "))
+// console.log(color.pop())
+// console.log(color)
+
+// var haa = ["josh", "sunday","tope@gmail.com"]
+// document.getElementById("gas").innerHTML = haa ;
+
+// function spli(){
+//     haa.splice(2,1, "joshua@gmail")
+//     document.getElementById("gas").innerHTML = haa;
+// }
+// // console.log(h.slice(0,2, 1))
+
+// // merging with concat
+// var boy = ["sola","segun"]
+// var girl = ["tope","temi","esther"]
+// var get = boy.concat(girl)
+// console.log(get.toString())
+
+// var aaa = [13,2,8,0,4,5,24]
+// price = aaa.sort((a,b) => a-b )
+// console.log(price)
+
+// var bbb = [13,2,8,0,4,5,24]
+// place = aaa.sort((a,b) => b-a )
+// console.log(place)

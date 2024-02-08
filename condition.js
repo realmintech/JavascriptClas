@@ -1,50 +1,50 @@
-let demo = document.getElementById("demo")
+// let demo = document.getElementById("demo")
 
-function aaa(){
-var check = new Date().getHours()
+// function aaa(){
+// var check = new Date().getHours()
 
-if (check < 11){
-   text = "Good morning"
-}else if(check < 20){
-    text = "Good day"
-}else{
-  text = "Good evening"
-}
+// if (check < 11){
+//    text = "Good morning"
+// }else if(check < 20){
+//     text = "Good day"
+// }else{
+//   text = "Good evening"
+// }
 
-document.getElementById("demo").innerHTML = text;
+// document.getElementById("demo").innerHTML = text;
 
-}
+// }
 
-function bbb(){
-    let name =" sola";
+// function bbb(){
+//     let name =" sola";
 
-    var jos ={
-        Fname :"sunday",
-        Sname :"sola"
-    }
+//     var jos ={
+//         Fname :"sunday",
+//         Sname :"sola"
+//     }
 
-    if(name ==jos.Fname){
-        result = jos.Fname
-    }else{
-        result = jos.Sname
-    }
-    document.getElementById("dem").innerHTML = "Result is " + result;
-}
+//     if(name ==jos.Fname){
+//         result = jos.Fname
+//     }else{
+//         result = jos.Sname
+//     }
+//     document.getElementById("dem").innerHTML = "Result is " + result;
+// }
 
 
-// switch statement.......
+// // switch statement.......
 
-let score = 10;
+// let score = 10;
 
-switch (score) {
-    case 1:
-        console.log('Grade A')
+// switch (score) {
+//     case 1:
+//         console.log('Grade A')
         
-        break;
+//         break;
 
-    default:
-        console.log('Grade B')
-        break;
-}
+//     default:
+//         console.log('Grade B')
+//         break;
+// }
 
-// Ternary Operation => for checking for two coditional statement
+// // Ternary Operation => for checking for two coditional statement
